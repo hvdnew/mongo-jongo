@@ -5,7 +5,7 @@ import org.jongo.marshall.jackson.oid.MongoObjectId;
 public class Address {
 
     @MongoObjectId
-    private String _id;
+    private String id;
     private String line1;
     private String line2;
     private String line3;

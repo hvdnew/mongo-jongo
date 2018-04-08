@@ -11,8 +11,8 @@ public class JongoServiceImpl implements JongoService {
 
     public JongoServiceImpl(String dbName) {
 
-        MongoClient client = new MongoClient();
-        DB db = client.getDB(dbName);
+        MongoClient client = new MongoClient(); // localhost
+        DB db = client.getDB(dbName); // deprecated method
 
         jongo = new Jongo(db);
 

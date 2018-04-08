@@ -8,7 +8,7 @@ import java.util.List;
 public class State {
 
     @MongoObjectId
-    private String _id;
+    private String id;
     private String name;
     private List<String> attractions;
 
